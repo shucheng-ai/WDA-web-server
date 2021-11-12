@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+<meta name="msapplication-TileImage" content="resources/images/icon_tile.png?v=4398" />
+<meta name="application-name" content="广东数程科技" />
+<meta name="msapplication-TileColor" content="#246BB3"/>
+<meta name="description" content="Synology NAS provides a full-featured network attached storage (NAS) solution to help you manage, backup and share data among Windows, Mac and Linux easily." />
+<meta name="keywords" content="Multitasking,Web Application,Personal Cloud" />
+
+<link rel="apple-touch-icon" href="webman/resources/images/icon_dsm_96.png?v=40438" />
+<link rel="mask-icon" href="webman/safari_pin_icon.svg" color="#0086E5" />
+<link rel="icon" href="webman/favicon.ico?v=40438" />
+<link rel="icon" href="webman/resources/images/icon_dsm_96.png?v=40438" sizes="96x96"/>
+<link rel="icon" href="webman/resources/images/icon_dsm_64.png?v=40438" sizes="64x64"/>
+<link rel="icon" href="webman/resources/images/icon_dsm_48.png?v=40438" sizes="48x48"/>
+<link rel="icon" href="webman/resources/images/icon_dsm_32.png?v=40438" sizes="32x32"/>
+<link rel="icon" href="webman/resources/images/icon_dsm_16.png?v=40438" sizes="16x16"/>
+<title>广东数程科技</title>
+<link rel="stylesheet" type="text/css" href="scripts/ext-3.4/resources/css/ext-all.css?v=1621235040" />
+<link rel="stylesheet" type="text/css" href="scripts/syno-vue-components/style/syno-vue-components.css?v=1623045394" />
+<link rel="stylesheet" type="text/css" href="scripts/scrollbar/flexcroll.css?v=1621235040" />
+<link rel="stylesheet" type="text/css" href="scripts/ext-3/ux/ux-all.css?v=1621235040" />
+<link rel="stylesheet" type="text/css" href="synoSDSjslib/sds.css?v=1623217542" />
+<link rel="stylesheet" type="text/css" href="webman/desktop/dist/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/login/css/login.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/resources/css/desktop.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/UpdateMaskApp/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/StorageManager/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/SupportForm/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/HelpBrowser/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/DataDrivenDocuments/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/Utils/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/Share/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/TaskSchedulerUtils/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/ResetAdminApp/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/SystemInfoApp/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/AudioPlayer/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/OTPWizard/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/DiskMessageHandler/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/ResourceMonitor/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/BandwidthControl/style.css?v=1602761074" />
+<link rel="stylesheet" type="text/css" href="webman/modules/WelcomeApp/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/Widgets/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/PkgManApp/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/PollingTask/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/SecurityScan/style.css?v=1618902363" />
+<link rel="stylesheet" type="text/css" href="webman/modules/DisableAdminNotification/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/FileChooserV6/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/TaskSchedulerWidget/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/VideoPlayer2/style.css?v=1615909239" />
+<link rel="stylesheet" type="text/css" href="webman/modules/EnableNewUpdateSetting/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/ClipBoardJS/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/C3/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/MyDSCenter/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/ExternalDevices/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/BackgroundTaskMonitor/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/FileChooser/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/PhotoViewer/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/DSMNotify/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/ThumbConvertProgress/style.css?v=1604674576" />
+<link rel="stylesheet" type="text/css" href="webman/modules/ConfigBackup/style.css?v=1622806892" />
+<link rel="stylesheet" type="text/css" href="webman/modules/LogCenter/style.css?v=1621910601" />
+<link rel="stylesheet" type="text/css" href="webman/modules/SharingManager/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/DesktopProgress/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/modules/HotkeyManager/style.css?v=1623045722" />
+<link rel="stylesheet" type="text/css" href="webman/modules/AdminCenter/style.css?v=1624362800" />
+<link rel="stylesheet" type="text/css" href="webman/modules/PersonalSettings/style.css?v=1621908465" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/DirectoryServer/style.css?v=1619686125" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/FileTaskMonitor/style.css?v=1621417656" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/FileBrowser/style.css?v=1621417662" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/OAuthService/style.css?v=1618330426" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/SynologyDrive/style.css?v=1624429198" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/Spreadsheet/style.css?v=1620417575" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/WebStation/style.css?v=1619686316" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/ScsiTarget/style.css?v=1626342105" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/HybridShare/style.css?v=1621848253" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/NoteStation/style.css?v=1618474690" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/PrestoServer/style.css?v=1619162049" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/SynologyDrive-ShareSync/style.css?v=1624429194" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/PDFViewer/style.css?v=1618587442" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/SynologyApplicationService/style.css?v=1619500014" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/USBCopy/style.css?v=1618888810" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/SynologyDrive-Drive/style.css?v=1624429194" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/SynoFinder/style.css?v=1618372526" />
+<link rel="stylesheet" type="text/css" href="webman/3rdparty/DhcpServer/style.css?v=1619169285" />
+
+</head>
+<body role="application">
+<div id="sds-wallpaper"></div>
+<!-- Don't contain any text node to avoid IE insertBefore bug -->
+<div id="sds-login-vue"></div>
+<div id="framework-attach"></div>
+<script type="text/javascript" src="webapi/entry.cgi?api=SYNO.Core.Desktop.SessionData&version=1&method=getjs&launchApp=SYNO.SDS.App.FileStation3.Instance&SynoToken=&v=1623993035"></script>
+<script type="text/javascript" src="scripts/babel-polyfill/polyfill.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/synowebapi.js/synowebapi.min.js?v=1620376319"></script>
+<script type="text/javascript" src="scripts/synocredential.js/synocredential.min.js?v=1626249688"></script>
+<script type="text/javascript" src="webapi/entry.cgi?api=SYNO.Core.Desktop.Defs&version=1&method=getjs&launchApp=SYNO.SDS.App.FileStation3.Instance&v=1626345896"></script>
+<script type="text/javascript" src="webapi/entry.cgi?api=SYNO.Core.Desktop.JSUIString&version=1&method=getjs&lang=enu&v=1627614785"></script>
+<script type="text/javascript" src="webapi/entry.cgi?api=SYNO.Core.Desktop.UIString&version=1&method=getjs&lang=enu&v=1627614789"></script>
+<script type="text/javascript" src="scripts/ext-3/adapter/ext/ext-base.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/ext-3/ext-all.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/ext-3/ux/ux-all.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/scrollbar/flexcroll.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/noise/noise-c.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/noise/constants.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/noise/index.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/noise/sodium.js?v=1621235040"></script>
+<script type="text/javascript" src="scripts/vue/vue.min.js?v=1589860832"></script>
+<script type="text/javascript" src="scripts/vuex/vuex.min.js?v=1585722123"></script>
+<script type="text/javascript" src="scripts/vue-router/vue-router.min.js?v=1604455828"></script>
+<script type="text/javascript" src="scripts/syno-vue-components/syno-vue-components.min.js?v=1623045394"></script>
+<script type="text/javascript" src="synoSDSjslib/vendor.js?v=1623217542"></script>
+<script type="text/javascript" src="synoSDSjslib/sds.js?v=1623217542"></script>
+<script type="text/javascript" src="webman/sds-common.js?v=1623045722"></script>
+<script type="text/javascript" src="webman/desktop/dist/dsm.desktop.bundle.js?v=1623045722"></script>
+<script type="text/javascript" src="webman/desktop.js?v=1623045722"></script>
+<script type="text/javascript" src="webman/login-vue.js?v=1623045722"></script>
+<script type="text/javascript" src="webman/login-init.js?v=1623045722"></script>
+
+<div class="pre-load-x-window-br"></div>
+</body>
+<noscript>
+<div class='syno-no-script'>
+<div class='title align-center'>This page can't be displayed</div>
+<div class='desc align-center'>Please allow your browser to run JavaScript.</div>
+<div class='icon align-center'></div>
+</div>
+</noscript>
+</html>
