@@ -1,0 +1,20 @@
+# web server
+flask==1.1.2
+flask-cors
+gevent
+SQLAlchemy==1.3.23
+sysrsync
+## 21.3.11
+requests
+## 21.4.1
+psycopg2_binary==2.8.5
+setuptools
+## 21.6.7
+pymongo
+redis
+# core & tools
+numpy
+opencv-python
+open3d
+# cad
+shapely

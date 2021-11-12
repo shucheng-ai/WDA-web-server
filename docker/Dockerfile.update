@@ -1,0 +1,2 @@
+From cyborg/webserver:latest
+RUN pip3 install pymongo redis

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    image: cyborg/webserver
+    container_name: cyborg-server
+    command: >
+      /bin/bash -c "
+        source /www/web-server/env/default.sh
+        python3 /www/web-server/start_server_v2_wsgi.py
+      "
+    ports:
+      - 8008:8000
+    volumes:
+      - ../../:/www/
