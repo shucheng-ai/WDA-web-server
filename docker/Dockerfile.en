@@ -7,8 +7,8 @@ COPY requirement.base.txt /workspace/requirement.base.txt
 COPY requirement.txt /workspace/requirement.txt
 COPY apt_install.sh /workspace/apt_install.sh
 RUN bash /workspace/apt_install.sh
+RUN pip3 install --upgrade pip
 RUN pip3 install -r /workspace/requirement.base.txt
-RUN pip3 install -r /workspace/requirement.txt
-ADD ezdxf.tar.bz2 /
-RUN cd /ezdxf; python3 setup.py install
+RUN pip3 install -r /workspace/requirement.txt 
+RUN pip3 install ezdxf==0.14.2
 WORKDIR /root
